@@ -37,7 +37,7 @@ public class Orderingsystem {
         switch (choose) {
             case 1:
                 System.out.println("You choose Shampoo");
-                System.out.print("How many Tapsilog you want to Buy? :");
+                System.out.print("How many Shampoo do you want to Buy? :");
                 quantity =input.nextInt();
                 total = total +(quantity*45);
                 System.out.println("You want to buy again? ");
@@ -58,7 +58,7 @@ public class Orderingsystem {
                 }       break;
             case 2:
                 System.out.println("You choose Hansel");
-                System.out.print("How many Tocilog you want to Buy? :");
+                System.out.print("How many Hansel do you want to Buy? :");
                 quantity =input.nextInt();
                 total = total +(quantity*40);
                 System.out.println("You want to buy again? ");
@@ -79,7 +79,7 @@ public class Orderingsystem {
                 }       break;
             case 3:
                 System.out.println("You choose Toothpaste");
-                System.out.print("How many Longsilog you want to Buy? :");
+                System.out.print("How many Toothpaste do you want to Buy? :");
                 quantity =input.nextInt();
                 total = total +(quantity*30);
                 System.out.println("You want to buy again? ");
@@ -100,7 +100,7 @@ public class Orderingsystem {
                 }       break;
                  case 4:
                 System.out.println("You choose Fundador light");
-                System.out.print("How many Longsilog you want to Buy? :");
+                System.out.print("How many Fundador light you want to Buy? :");
                 quantity =input.nextInt();
                 total = total +(quantity*30);
                 System.out.println("You want to buy again? ");
@@ -121,7 +121,7 @@ public class Orderingsystem {
                 }       break;
                 case 5:
                 System.out.println("You choose Tanduay Select");
-                System.out.print("How many Longsilog you want to Buy? :");
+                System.out.print("How many Tanduay Select you want to Buy? :");
                 quantity =input.nextInt();
                 total = total +(quantity*30);
                 System.out.println("You want to buy again? ");

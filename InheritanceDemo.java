@@ -45,28 +45,14 @@ class Cube extends Shape {
         return Math.pow(sideLength, 3);
     }
 }
-class Cylinder extends Shape {
-    private final double radius;
-    
-    public Cylinder(String name, double dimension, double radius){
-        super(name, dimension);
-        this.radius = radius;
-     }
-    public double getVolume(){
-        return Math.PI * Math.pow(radius, 2);
-     }
-}
 public class InheritanceDemo {
     public static void main(String[] args) {
         Sphere sphere = new Sphere("Sphere", 0, 3.3);
         Cube cube = new Cube("Cube", 0, 2.5);
-        Cylinder cylinder = new Cylinder("Cylinder", 0, 2.);
         double sphereVolume = sphere.getVolume();
         double cubeVolume = cube.getVolume();
-        double cylinderVolume =cylinder.getVolume();
         System.out.println("Volume of the " + sphere.name + ": " + sphereVolume);
         System.out.println("Volume of the " + cube.name + ": " + cubeVolume);
-        System.out.println("Volume of the " + cylinder.name + ":" + cylinderVolume);
     }
 }
 
